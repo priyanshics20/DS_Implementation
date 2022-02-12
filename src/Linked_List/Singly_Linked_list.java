@@ -163,6 +163,21 @@ public class Singly_Linked_list {
         return head;
     }
 
+    // reverse a linked list
+    public Node reverse_ll(){
+        if(head==null || head.next == null ) return null;
+
+        Node prev = null;
+        Node curr_node = head;
+        while(curr_node != null){
+            Node next_node = curr_node.next;
+            curr_node.next = prev;
+            prev = curr_node;
+            curr_node = next_node;
+        }
+        return prev;
+    }
+
     //print method
     public void printAll(){
         Node temp = head;
@@ -195,11 +210,12 @@ public class Singly_Linked_list {
         llist.head=llist.insert_at_end(5);
         llist.insert_before_position(88,3);
         llist.insert_after_pos(99,5);
-        //llist.head=llist.del_head();
-        //llist.head=llist.del_end();
-//      llist.head=llist.del_given_pos(6);
-        //llist.head=llist.del_before_pos(6);
+        llist.head=llist.del_head();
+        llist.head=llist.del_end();
+        llist.head=llist.del_given_pos(6);
+        llist.head=llist.del_before_pos(6);
         llist.head=llist.del_after_pos(6);
+        llist.head=llist.reverse_ll();
         llist.printAll();
         llist.countNode();
     }
