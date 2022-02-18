@@ -30,13 +30,17 @@ public class Queue_using_LL {
         if(isEmpty()){
             System.out.println("UnderFlow");
         } else {
-            System.out.println( " dequeue "+ front.data);
+            System.out.println( "dequeue "+ front.data);
             front = front.next;
         }
     }
 
     public void printAll(){
         Node h1 = front;
+        while(h1!=null){
+            System.out.println(h1.data);
+            h1=h1.next;
+        }
 
     }
 
@@ -46,7 +50,9 @@ public class Queue_using_LL {
         queue.enqueue(24);
         queue.enqueue(33);
         queue.enqueue(44);
+        queue.printAll();
         queue.dequeue();
         queue.dequeue();
+        queue.printAll();
     }
 }
