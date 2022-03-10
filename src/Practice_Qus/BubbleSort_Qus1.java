@@ -1,3 +1,6 @@
+/*
+sort the given string according to their length and if string have same length then sort it according to lexicographical order
+ */
 package Practice_Qus;
 
 import java.util.Scanner;
