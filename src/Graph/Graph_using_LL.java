@@ -1,13 +1,13 @@
 package Graph;
 
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.Map;
+import java.util.*;
+
 public class Graph_using_LL{
     Map<Integer, LinkedList<Integer>> obj;
     Graph_using_LL(){
         obj = new HashMap<>();
     }
+
     public void addedge(int v1 , int v2 , boolean bidirectional){
         LinkedList<Integer> v1_neighbour = obj.getOrDefault(v1 , new LinkedList<>());
         v1_neighbour.add(v2);
@@ -16,6 +16,24 @@ public class Graph_using_LL{
             LinkedList<Integer> v2neighbour = obj.getOrDefault(v2, new LinkedList<>());
             v2neighbour.add(v1);
             obj.put(v2 , v2neighbour);
+        }
+    }
+
+    public void bfsTraversal(int source){
+        Queue<Integer> queue = new LinkedList<>();
+        queue.add(source);
+        Set<Integer> visited = new HashSet<>();
+        visited.add(source);
+        while(!queue.isEmpty()){
+            int front = queue.poll();
+            System.out.print(front + " ");
+            List<Integer> neighbours = obj.get(front);
+            for(int i : neighbours){
+                if(!visited.contains(i)){
+                    queue.add(i);
+                    visited.add(i);
+                }
+            }
         }
     }
 
@@ -29,5 +47,9 @@ public class Graph_using_LL{
             System.out.print(res.getKey()+": ");
             System.out.println(res.getValue());
         }
-        }
+        System.out.println("Various roots BFS Traversals are:-");
+        graph.bfsTraversal(2);
+        System.out.println();
+        graph.bfsTraversal(4);
     }
+}
