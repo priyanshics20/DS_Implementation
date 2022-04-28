@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a04dde49-943f-4e16-ba71-51908140a595" name="Changes" comment="init" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="25INsI7l7ytSu7SalYVlUtFFTOw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="Application.graph_Implement">
+    <configuration name="BST_using_LL (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.BST_using_LL" />
+      <module name="DS_Implementation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BST_using_LL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.BST_using_LL" />
+      <module name="DS_Implementation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryTree_using_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.BinaryTree_using_Array" />
+      <module name="DS_Implementation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Graph_using_LL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.Graph_using_LL" />
+      <module name="DS_Implementation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="graph_Implement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.graph_Implement" />
+      <module name="DS_Implementation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.graph_Implement" />
+        <item itemvalue="Application.Graph_using_LL" />
+        <item itemvalue="Application.BST_using_LL (1)" />
+        <item itemvalue="Application.BST_using_LL" />
+        <item itemvalue="Application.BinaryTree_using_Array" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a04dde49-943f-4e16-ba71-51908140a595" name="Changes" comment="" />
+      <created>1645210846386</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645210846386</updated>
+      <workItem from="1645210851463" duration="1000000" />
+      <workItem from="1645354102495" duration="2394000" />
+      <workItem from="1645359994226" duration="4298000" />
+      <workItem from="1645444200115" duration="1478000" />
+      <workItem from="1645450369661" duration="103000" />
+      <workItem from="1645884738428" duration="176000" />
+      <workItem from="1646840883084" duration="6115000" />
+      <workItem from="1646851205973" duration="39000" />
+      <workItem from="1646888671542" duration="20000" />
+      <workItem from="1646896130925" duration="5635000" />
+      <workItem from="1647591778933" duration="51000" />
+      <workItem from="1648100284816" duration="48000" />
+      <workItem from="1648100354736" duration="1615000" />
+      <workItem from="1648367974210" duration="5412000" />
+      <workItem from="1648702814716" duration="4181000" />
+      <workItem from="1648975316423" duration="1478000" />
+      <workItem from="1649263033917" duration="4976000" />
+      <workItem from="1649325493293" duration="3000" />
+      <workItem from="1649338413240" duration="1248000" />
+      <workItem from="1650516774219" duration="5091000" />
+      <workItem from="1650549694717" duration="4942000" />
+      <workItem from="1650637069665" duration="3314000" />
+      <workItem from="1650712815284" duration="3859000" />
+      <workItem from="1651121718294" duration="1803000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1645211295400</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1645211295400</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init">
+      <created>1645371563793</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645371563793</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init">
+      <created>1646927610718</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1646927610718</updated>
+    </task>
+    <task id="LOCAL-00004" summary="init">
+      <created>1646927903660</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1646927903660</updated>
+    </task>
+    <task id="LOCAL-00005" summary="init">
+      <created>1648100474973</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1648100474973</updated>
+    </task>
+    <task id="LOCAL-00006" summary="init">
+      <created>1648139317187</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1648139317187</updated>
+    </task>
+    <task id="LOCAL-00007" summary="init">
+      <created>1648372955759</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648372955759</updated>
+    </task>
+    <task id="LOCAL-00008" summary="init">
+      <created>1648375946215</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1648375946215</updated>
+    </task>
+    <task id="LOCAL-00009" summary="init">
+      <created>1648378408762</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1648378408762</updated>
+    </task>
+    <task id="LOCAL-00010" summary="init">
+      <created>1650520981142</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1650520981142</updated>
+    </task>
+    <task id="LOCAL-00011" summary="init">
+      <created>1650521425748</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1650521425748</updated>
+    </task>
+    <task id="LOCAL-00012" summary="init">
+      <created>1650549727717</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1650549727717</updated>
+    </task>
+    <task id="LOCAL-00013" summary="init">
+      <created>1650637274047</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1650637274047</updated>
+    </task>
+    <task id="LOCAL-00014" summary="init">
+      <created>1650643877139</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1650643877139</updated>
+    </task>
+    <task id="LOCAL-00015" summary="init">
+      <created>1651122096483</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1651122096483</updated>
+    </task>
+    <task id="LOCAL-00016" summary="init">
+      <created>1651122536615</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1651122536615</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+</project>
