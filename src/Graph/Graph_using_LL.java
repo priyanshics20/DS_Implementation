@@ -36,12 +36,27 @@ public class Graph_using_LL{
             }
         }
     }
+    public void dfsTraversal(int source){
+      Set<Integer> visited = new HashSet<>();
+      dfshelper(source ,visited);
+    }
+    private void dfshelper(int source , Set<Integer> visited){
+        System.out.print(source+" ");
+        visited.add(source);
+        LinkedList<Integer> neighbours = obj.get(source);
+        for(Integer i: neighbours){
+            if(!visited.contains(i)){
+                visited.add(i);
+                dfshelper(i,visited);
+            }
+        }
+    }
 
     public static void main(String[] args) {
         Graph_using_LL graph = new Graph_using_LL();
         graph.addedge(2,5,true);
         graph.addedge(3,4,true);
-        graph.addedge(2,3,false);
+        graph.addedge(2,3,true);
 
         for(Map.Entry<Integer,LinkedList<Integer>> res : graph.obj.entrySet()){
             System.out.print(res.getKey()+": ");
@@ -51,5 +66,10 @@ public class Graph_using_LL{
         graph.bfsTraversal(2);
         System.out.println();
         graph.bfsTraversal(4);
+        System.out.println();
+        System.out.println("Various roots DFS Traversals are :- ");
+        graph.dfsTraversal(3);
+        System.out.println();
+        graph.dfsTraversal(2);
     }
 }
