@@ -3,7 +3,7 @@ package Tree;
 import java.util.Scanner;
 
 public class BST_using_LL {
-        static Tree.BST_using_LL.Node root;
+        static Node root;
         static class Node{
             int data;
             BST_using_LL.Node left , right;
@@ -12,8 +12,8 @@ public class BST_using_LL {
             }
         }
 
-        public static BST_using_LL.Node insert(BST_using_LL.Node root, int val){
-            BST_using_LL.Node newnode = new BST_using_LL.Node(val);
+        public static Node insert(Node root, int val){
+            Node newnode = new Node(val);
             if(root == null) {
                 root = newnode;
                 return root;
@@ -33,8 +33,8 @@ public class BST_using_LL {
             return root;
         }
 
-        public void printpreorder(BST_using_LL.Node root){
-            BST_using_LL.Node r1 = root;
+        public void printpreorder(Node root){
+            Node r1 = root;
             if(r1!=null){
                 System.out.print(r1.data+" ");
                 printpreorder(r1.left);
@@ -42,7 +42,7 @@ public class BST_using_LL {
             }
         }
 
-        public static boolean search(BST_using_LL.Node root , int val){
+        public static boolean search(Node root , int val){
             boolean result;
             if(root == null)
                 return false;
